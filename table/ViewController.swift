@@ -20,6 +20,9 @@ class ViewController: UIViewController {
     }
 
     @IBAction func OtamesiButton(_ sender: UIButton) {
+        let nextStoryBoard = UIStoryboard(name: "Next", bundle: nil)
+        let nextVc: NextViewController = nextStoryBoard.instantiateInitialViewController() as! NextViewController
+        self.present(nextVc,animated: true,completion: nil)
         print("押されました")
     }
 }

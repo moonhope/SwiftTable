@@ -23,6 +23,8 @@
 		FD1104FD2898E01C00C02DC7 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1104FC2898E01C00C02DC7 /* ApiClient.swift */; };
 		FD6F8DBD2898FBA9008A70EC /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6F8DBC2898FBA9008A70EC /* ApiError.swift */; };
 		FD6F8DBF2898FCDF008A70EC /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6F8DBE2898FCDF008A70EC /* Article.swift */; };
+		FD94CCD5289A73FD001BE761 /* Next.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD94CCD4289A73FD001BE761 /* Next.storyboard */; };
+		FD94CCD7289A7542001BE761 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD94CCD6289A7542001BE761 /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		FD1104FC2898E01C00C02DC7 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		FD6F8DBC2898FBA9008A70EC /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
 		FD6F8DBE2898FCDF008A70EC /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		FD94CCD4289A73FD001BE761 /* Next.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Next.storyboard; sourceTree = "<group>"; };
+		FD94CCD6289A7542001BE761 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +158,8 @@
 				FD6F8DBC2898FBA9008A70EC /* ApiError.swift */,
 				FD6F8DBE2898FCDF008A70EC /* Article.swift */,
 				FD1104D22898DEAE00C02DC7 /* Main.storyboard */,
+				FD94CCD4289A73FD001BE761 /* Next.storyboard */,
+				FD94CCD6289A7542001BE761 /* NextViewController.swift */,
 				FD0D46C528991A5100BA7D84 /* MyCustomCell.swift */,
 				FD1104D52898DEAF00C02DC7 /* Assets.xcassets */,
 				FD1104D72898DEAF00C02DC7 /* LaunchScreen.storyboard */,
@@ -289,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD1104D92898DEAF00C02DC7 /* LaunchScreen.storyboard in Resources */,
+				FD94CCD5289A73FD001BE761 /* Next.storyboard in Resources */,
 				FD1104D62898DEAF00C02DC7 /* Assets.xcassets in Resources */,
 				FD1104D42898DEAE00C02DC7 /* Main.storyboard in Resources */,
 			);
@@ -419,6 +426,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD1104D12898DEAE00C02DC7 /* ViewController.swift in Sources */,
+				FD94CCD7289A7542001BE761 /* NextViewController.swift in Sources */,
 				FD1104CD2898DEAE00C02DC7 /* AppDelegate.swift in Sources */,
 				FD6F8DBF2898FCDF008A70EC /* Article.swift in Sources */,
 				FD0D46C628991A5100BA7D84 /* MyCustomCell.swift in Sources */,
